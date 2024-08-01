@@ -15,7 +15,7 @@ Requisitos
     composer install
 
     3.- Configurar archivo .env
-    Usar archivo .env.example para crear archivo .env y configurar la base de datos creada previamente en MYSQL.
+    Usar archivo .env.example para crear archivo .env y configurar la base de datos creada previamente en MYSQL (CREATE DATABASE nombre_de_base_de_datos;).
 
     4.-Generar clave de aplicación:
     php artisan key:generate en la linea de comandos (CMD/Terminal) dentro de la ruta del proyecto.
